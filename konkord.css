@@ -1,0 +1,135 @@
+
+/* Шапка сайта */
+body{
+    margin: 6% 7%;
+    background-color: #1f1f1f;
+    border: 0.3rem solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+
+#head-block{
+    background-color: black;
+    border: 35px;
+    border-color: antiquewhite;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 0.7rem;
+
+}
+
+.first-block{
+    margin-bottom: 6% ;
+}
+
+.head-image{
+    width: 90%;
+    height: 100%;
+}
+
+.name-and-description{
+    color: aliceblue;
+    margin-top: 8%;
+}
+
+.slogan{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 20%;
+    color: beige;
+    text-shadow: gold 0 0 4px;
+}
+
+.main-links{
+    padding: 2%;
+}
+
+.main-sections{
+    color: antiquewhite;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.main-sections:hover{
+    color: gold;
+}
+
+/* Средний блок */
+
+#middle-block{
+    background-color: white;
+    padding-top: 7%;
+
+}
+
+.two-sections{
+    margin-bottom: 7%;
+}
+
+.image-sections{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+.links-sections{
+    font-family: 'JetBrains Mono', monospace;
+    color: black;
+}
+
+.links-sections:hover{
+    color: gold;
+}
+
+/* Нижний контейнеррр */
+
+#bottom-cntnr{
+    background-color: black;
+    color: beige;
+    padding: 6%;
+}
+
+
+/* Блок контента */
+
+#product-content{
+    background-color: white;
+    color: black;
+    font-family: 'Tenor Sans', sans-serif;
+    padding: 10% 10%;    
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-description{
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 1.3rem; 
+}
+
+.content-container{
+}
+
+@media (min-width:1028px){
+    .image-sections{
+        width: 60%;
+        height: 270px;
+        margin: auto;
+        padding-bottom: 5%;
+    }
+
+}
+
+@media (max-width:1028px) {
+    
+    .product-image{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
